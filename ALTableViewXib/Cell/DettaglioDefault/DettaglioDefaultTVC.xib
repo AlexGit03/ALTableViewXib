@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DettaglioDefaultTVC" rowHeight="18" id="d8r-0S-cDR" customClass="DettaglioDefaultTVC" customModule="ALTableViewXib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d8r-0S-cDR" id="bXB-BF-98P">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sy3-Lh-L7q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Titolo1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hde-vR-1Tp">
+                                <rect key="frame" x="28" y="15" width="319" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hde-vR-1Tp" firstAttribute="bottom" secondItem="Sy3-Lh-L7q" secondAttribute="bottomMargin" constant="-6.5" id="3OV-uv-Bce"/>
+                            <constraint firstItem="Hde-vR-1Tp" firstAttribute="top" secondItem="Sy3-Lh-L7q" secondAttribute="topMargin" constant="7" id="4aj-G3-oSf"/>
+                            <constraint firstItem="Hde-vR-1Tp" firstAttribute="leading" secondItem="Sy3-Lh-L7q" secondAttribute="leading" constant="28" id="ZFh-Dv-D5e"/>
+                            <constraint firstAttribute="trailing" secondItem="Hde-vR-1Tp" secondAttribute="trailing" constant="28" id="f30-di-w7M"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Sy3-Lh-L7q" firstAttribute="top" secondItem="bXB-BF-98P" secondAttribute="top" id="EoM-Fn-W04"/>
+                    <constraint firstAttribute="bottom" secondItem="Sy3-Lh-L7q" secondAttribute="bottom" id="Jct-OS-dTM"/>
+                    <constraint firstItem="Sy3-Lh-L7q" firstAttribute="leading" secondItem="bXB-BF-98P" secondAttribute="leading" id="JmI-g8-gqS"/>
+                    <constraint firstAttribute="trailing" secondItem="Sy3-Lh-L7q" secondAttribute="trailing" id="bpX-HV-b8h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dettaglioLBL" destination="Hde-vR-1Tp" id="feV-X2-pBA"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="64.5"/>
+        </tableViewCell>
+    </objects>
+</document>
