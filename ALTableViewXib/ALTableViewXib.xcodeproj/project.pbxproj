@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24125057E81990145B9E0562 /* Pods_ALTableViewXib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */; };
 		4C68E74D20C95E5F00B3D39F /* ALTableViewXib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C68E74B20C95E5F00B3D39F /* ALTableViewXib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C68E78120C95ECB00B3D39F /* TableViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C68E75320C95ECA00B3D39F /* TableViewXib.xib */; };
 		4C68E78420C95ECB00B3D39F /* DefaultHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C68E75920C95ECA00B3D39F /* DefaultHeaderView.xib */; };
@@ -36,6 +37,9 @@
 		4C68E77F20C95ECB00B3D39F /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		4C68E78020C95ECB00B3D39F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		4CEA770120C985EB00E57FBE /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTableViewXib.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALTableViewXib/Pods-ALTableViewXib.release.xcconfig"; sourceTree = "<group>"; };
+		87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTableViewXib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALTableViewXib/Pods-ALTableViewXib.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALTableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24125057E81990145B9E0562 /* Pods_ALTableViewXib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				4C68E74A20C95E5F00B3D39F /* ALTableViewXib */,
 				4C68E74920C95E5F00B3D39F /* Products */,
+				691BC6281DA8BBCA42C7F5A3 /* Pods */,
+				67DA1FDB5CE3CEC3A8BADBCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +140,23 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		67DA1FDB5CE3CEC3A8BADBCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		691BC6281DA8BBCA42C7F5A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */,
+				4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C68E75020C95E5F00B3D39F /* Build configuration list for PBXNativeTarget "ALTableViewXib" */;
 			buildPhases = (
+				E1354B4000086A7A63563187 /* [CP] Check Pods Manifest.lock */,
 				4C68E74320C95E5F00B3D39F /* Sources */,
 				4C68E74420C95E5F00B3D39F /* Frameworks */,
 				4C68E74520C95E5F00B3D39F /* Headers */,
@@ -210,6 +235,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1354B4000086A7A63563187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALTableViewXib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C68E74320C95E5F00B3D39F /* Sources */ = {
@@ -345,6 +391,7 @@
 		};
 		4C68E75120C95E5F00B3D39F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -369,6 +416,7 @@
 		};
 		4C68E75220C95E5F00B3D39F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
