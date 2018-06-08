@@ -7,179 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24125057E81990145B9E0562 /* Pods_ALTableViewXib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */; };
-		4C68E74D20C95E5F00B3D39F /* ALTableViewXib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C68E74B20C95E5F00B3D39F /* ALTableViewXib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C68E78120C95ECB00B3D39F /* TableViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C68E75320C95ECA00B3D39F /* TableViewXib.xib */; };
-		4C68E78420C95ECB00B3D39F /* DefaultHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C68E75920C95ECA00B3D39F /* DefaultHeaderView.xib */; };
-		4C68E78520C95ECB00B3D39F /* DefaultHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E75A20C95ECA00B3D39F /* DefaultHeaderView.swift */; };
-		4C68E78820C95ECB00B3D39F /* TableViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E75E20C95ECA00B3D39F /* TableViewXib.swift */; };
-		4C68E78920C95ECB00B3D39F /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E76020C95ECA00B3D39F /* TableViewDataSource.swift */; };
-		4C68E79C20C95ECB00B3D39F /* DettaglioDefaultTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C68E77B20C95ECA00B3D39F /* DettaglioDefaultTVC.xib */; };
-		4C68E79D20C95ECB00B3D39F /* DettaglioDefaultTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E77C20C95ECA00B3D39F /* DettaglioDefaultTVC.swift */; };
-		4C68E79E20C95ECB00B3D39F /* DettaglioDefaultMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E77D20C95ECA00B3D39F /* DettaglioDefaultMC.swift */; };
-		4C68E79F20C95ECB00B3D39F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E77F20C95ECB00B3D39F /* NSObject+Extension.swift */; };
-		4C68E7A020C95ECB00B3D39F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E78020C95ECB00B3D39F /* UIView+Extension.swift */; };
-		4CEA770220C985EB00E57FBE /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA770120C985EB00E57FBE /* UITableView+Extension.swift */; };
+		4C7CB60D20CA7F1200387AA5 /* ALTableViewXib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7CB60B20CA7F1200387AA5 /* ALTableViewXib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7CB62D20CA7F3200387AA5 /* TableViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CB61320CA7F3100387AA5 /* TableViewXib.xib */; };
+		4C7CB63120CA7F3200387AA5 /* TableViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB61820CA7F3200387AA5 /* TableViewXib.swift */; };
+		4C7CB63320CA7F3200387AA5 /* DefaultHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CB61D20CA7F3200387AA5 /* DefaultHeaderView.xib */; };
+		4C7CB63420CA7F3200387AA5 /* DefaultHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB61E20CA7F3200387AA5 /* DefaultHeaderView.swift */; };
+		4C7CB63620CA7F3200387AA5 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62220CA7F3200387AA5 /* TableViewDataSource.swift */; };
+		4C7CB63720CA7F3200387AA5 /* DettaglioDefaultTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CB62520CA7F3200387AA5 /* DettaglioDefaultTVC.xib */; };
+		4C7CB63820CA7F3200387AA5 /* DettaglioDefaultTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62620CA7F3200387AA5 /* DettaglioDefaultTVC.swift */; };
+		4C7CB63920CA7F3200387AA5 /* DettaglioDefaultMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62720CA7F3200387AA5 /* DettaglioDefaultMC.swift */; };
+		4C7CB63B20CA7F3200387AA5 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62A20CA7F3200387AA5 /* NSObject+Extension.swift */; };
+		4C7CB63C20CA7F3200387AA5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62B20CA7F3200387AA5 /* UIView+Extension.swift */; };
+		4C7CB63D20CA7F3200387AA5 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CB62C20CA7F3200387AA5 /* UITableView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C68E74820C95E5F00B3D39F /* ALTableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALTableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C68E74B20C95E5F00B3D39F /* ALTableViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTableViewXib.h; sourceTree = "<group>"; };
-		4C68E74C20C95E5F00B3D39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C68E75320C95ECA00B3D39F /* TableViewXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewXib.xib; sourceTree = "<group>"; };
-		4C68E75920C95ECA00B3D39F /* DefaultHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultHeaderView.xib; sourceTree = "<group>"; };
-		4C68E75A20C95ECA00B3D39F /* DefaultHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHeaderView.swift; sourceTree = "<group>"; };
-		4C68E75E20C95ECA00B3D39F /* TableViewXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewXib.swift; sourceTree = "<group>"; };
-		4C68E76020C95ECA00B3D39F /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
-		4C68E77B20C95ECA00B3D39F /* DettaglioDefaultTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DettaglioDefaultTVC.xib; sourceTree = "<group>"; };
-		4C68E77C20C95ECA00B3D39F /* DettaglioDefaultTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettaglioDefaultTVC.swift; sourceTree = "<group>"; };
-		4C68E77D20C95ECA00B3D39F /* DettaglioDefaultMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettaglioDefaultMC.swift; sourceTree = "<group>"; };
-		4C68E77F20C95ECB00B3D39F /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
-		4C68E78020C95ECB00B3D39F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		4CEA770120C985EB00E57FBE /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
-		4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTableViewXib.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALTableViewXib/Pods-ALTableViewXib.release.xcconfig"; sourceTree = "<group>"; };
-		87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTableViewXib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALTableViewXib/Pods-ALTableViewXib.debug.xcconfig"; sourceTree = "<group>"; };
-		B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALTableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7CB60820CA7F1200387AA5 /* ALTableViewXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALTableViewXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7CB60B20CA7F1200387AA5 /* ALTableViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTableViewXib.h; sourceTree = "<group>"; };
+		4C7CB60C20CA7F1200387AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7CB61320CA7F3100387AA5 /* TableViewXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewXib.xib; sourceTree = "<group>"; };
+		4C7CB61820CA7F3200387AA5 /* TableViewXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewXib.swift; sourceTree = "<group>"; };
+		4C7CB61D20CA7F3200387AA5 /* DefaultHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultHeaderView.xib; sourceTree = "<group>"; };
+		4C7CB61E20CA7F3200387AA5 /* DefaultHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHeaderView.swift; sourceTree = "<group>"; };
+		4C7CB62220CA7F3200387AA5 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		4C7CB62520CA7F3200387AA5 /* DettaglioDefaultTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DettaglioDefaultTVC.xib; sourceTree = "<group>"; };
+		4C7CB62620CA7F3200387AA5 /* DettaglioDefaultTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettaglioDefaultTVC.swift; sourceTree = "<group>"; };
+		4C7CB62720CA7F3200387AA5 /* DettaglioDefaultMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettaglioDefaultMC.swift; sourceTree = "<group>"; };
+		4C7CB62A20CA7F3200387AA5 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		4C7CB62B20CA7F3200387AA5 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4C7CB62C20CA7F3200387AA5 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C68E74420C95E5F00B3D39F /* Frameworks */ = {
+		4C7CB60420CA7F1200387AA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24125057E81990145B9E0562 /* Pods_ALTableViewXib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C68E73E20C95E5F00B3D39F = {
+		4C7CB5FE20CA7F1200387AA5 = {
 			isa = PBXGroup;
 			children = (
-				4C68E74A20C95E5F00B3D39F /* ALTableViewXib */,
-				4C68E74920C95E5F00B3D39F /* Products */,
-				691BC6281DA8BBCA42C7F5A3 /* Pods */,
-				67DA1FDB5CE3CEC3A8BADBCD /* Frameworks */,
+				4C7CB60A20CA7F1200387AA5 /* ALTableViewXib */,
+				4C7CB60920CA7F1200387AA5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4C68E74920C95E5F00B3D39F /* Products */ = {
+		4C7CB60920CA7F1200387AA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E74820C95E5F00B3D39F /* ALTableViewXib.framework */,
+				4C7CB60820CA7F1200387AA5 /* ALTableViewXib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C68E74A20C95E5F00B3D39F /* ALTableViewXib */ = {
+		4C7CB60A20CA7F1200387AA5 /* ALTableViewXib */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E77E20C95ECB00B3D39F /* Extension */,
-				4C68E75F20C95ECA00B3D39F /* DataModel */,
-				4C68E75420C95ECA00B3D39F /* HeaderTableView */,
-				4C68E76120C95ECA00B3D39F /* Cell */,
-				4C68E75E20C95ECA00B3D39F /* TableViewXib.swift */,
-				4C68E75320C95ECA00B3D39F /* TableViewXib.xib */,
-				4C68E74B20C95E5F00B3D39F /* ALTableViewXib.h */,
-				4C68E74C20C95E5F00B3D39F /* Info.plist */,
+				4C7CB62320CA7F3200387AA5 /* Cell */,
+				4C7CB62120CA7F3200387AA5 /* DataModel */,
+				4C7CB62920CA7F3200387AA5 /* Extension */,
+				4C7CB61A20CA7F3200387AA5 /* HeaderTableView */,
+				4C7CB61820CA7F3200387AA5 /* TableViewXib.swift */,
+				4C7CB61320CA7F3100387AA5 /* TableViewXib.xib */,
+				4C7CB60B20CA7F1200387AA5 /* ALTableViewXib.h */,
+				4C7CB60C20CA7F1200387AA5 /* Info.plist */,
 			);
 			path = ALTableViewXib;
 			sourceTree = "<group>";
 		};
-		4C68E75420C95ECA00B3D39F /* HeaderTableView */ = {
+		4C7CB61A20CA7F3200387AA5 /* HeaderTableView */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E75820C95ECA00B3D39F /* Default */,
+				4C7CB61C20CA7F3200387AA5 /* Default */,
 			);
 			path = HeaderTableView;
 			sourceTree = "<group>";
 		};
-		4C68E75820C95ECA00B3D39F /* Default */ = {
+		4C7CB61C20CA7F3200387AA5 /* Default */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E75920C95ECA00B3D39F /* DefaultHeaderView.xib */,
-				4C68E75A20C95ECA00B3D39F /* DefaultHeaderView.swift */,
+				4C7CB61D20CA7F3200387AA5 /* DefaultHeaderView.xib */,
+				4C7CB61E20CA7F3200387AA5 /* DefaultHeaderView.swift */,
 			);
 			path = Default;
 			sourceTree = "<group>";
 		};
-		4C68E75F20C95ECA00B3D39F /* DataModel */ = {
+		4C7CB62120CA7F3200387AA5 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E76020C95ECA00B3D39F /* TableViewDataSource.swift */,
+				4C7CB62220CA7F3200387AA5 /* TableViewDataSource.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
 		};
-		4C68E76120C95ECA00B3D39F /* Cell */ = {
+		4C7CB62320CA7F3200387AA5 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E77A20C95ECA00B3D39F /* DettaglioDefault */,
+				4C7CB62420CA7F3200387AA5 /* DettaglioDefault */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		4C68E77A20C95ECA00B3D39F /* DettaglioDefault */ = {
+		4C7CB62420CA7F3200387AA5 /* DettaglioDefault */ = {
 			isa = PBXGroup;
 			children = (
-				4C68E77B20C95ECA00B3D39F /* DettaglioDefaultTVC.xib */,
-				4C68E77C20C95ECA00B3D39F /* DettaglioDefaultTVC.swift */,
-				4C68E77D20C95ECA00B3D39F /* DettaglioDefaultMC.swift */,
+				4C7CB62520CA7F3200387AA5 /* DettaglioDefaultTVC.xib */,
+				4C7CB62620CA7F3200387AA5 /* DettaglioDefaultTVC.swift */,
+				4C7CB62720CA7F3200387AA5 /* DettaglioDefaultMC.swift */,
 			);
 			path = DettaglioDefault;
 			sourceTree = "<group>";
 		};
-		4C68E77E20C95ECB00B3D39F /* Extension */ = {
+		4C7CB62920CA7F3200387AA5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4CEA770120C985EB00E57FBE /* UITableView+Extension.swift */,
-				4C68E77F20C95ECB00B3D39F /* NSObject+Extension.swift */,
-				4C68E78020C95ECB00B3D39F /* UIView+Extension.swift */,
+				4C7CB62A20CA7F3200387AA5 /* NSObject+Extension.swift */,
+				4C7CB62B20CA7F3200387AA5 /* UIView+Extension.swift */,
+				4C7CB62C20CA7F3200387AA5 /* UITableView+Extension.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		67DA1FDB5CE3CEC3A8BADBCD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B4F146016134B887B695E288 /* Pods_ALTableViewXib.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		691BC6281DA8BBCA42C7F5A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */,
-				4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C68E74520C95E5F00B3D39F /* Headers */ = {
+		4C7CB60520CA7F1200387AA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C68E74D20C95E5F00B3D39F /* ALTableViewXib.h in Headers */,
+				4C7CB60D20CA7F1200387AA5 /* ALTableViewXib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4C68E74720C95E5F00B3D39F /* ALTableViewXib */ = {
+		4C7CB60720CA7F1200387AA5 /* ALTableViewXib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C68E75020C95E5F00B3D39F /* Build configuration list for PBXNativeTarget "ALTableViewXib" */;
+			buildConfigurationList = 4C7CB61020CA7F1200387AA5 /* Build configuration list for PBXNativeTarget "ALTableViewXib" */;
 			buildPhases = (
-				E1354B4000086A7A63563187 /* [CP] Check Pods Manifest.lock */,
-				4C68E74320C95E5F00B3D39F /* Sources */,
-				4C68E74420C95E5F00B3D39F /* Frameworks */,
-				4C68E74520C95E5F00B3D39F /* Headers */,
-				4C68E74620C95E5F00B3D39F /* Resources */,
+				4C7CB60320CA7F1200387AA5 /* Sources */,
+				4C7CB60420CA7F1200387AA5 /* Frameworks */,
+				4C7CB60520CA7F1200387AA5 /* Headers */,
+				4C7CB60620CA7F1200387AA5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,96 +162,75 @@
 			);
 			name = ALTableViewXib;
 			productName = ALTableViewXib;
-			productReference = 4C68E74820C95E5F00B3D39F /* ALTableViewXib.framework */;
+			productReference = 4C7CB60820CA7F1200387AA5 /* ALTableViewXib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4C68E73F20C95E5F00B3D39F /* Project object */ = {
+		4C7CB5FF20CA7F1200387AA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Antonio Alessandro Chillura";
 				TargetAttributes = {
-					4C68E74720C95E5F00B3D39F = {
+					4C7CB60720CA7F1200387AA5 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4C68E74220C95E5F00B3D39F /* Build configuration list for PBXProject "ALTableViewXib" */;
+			buildConfigurationList = 4C7CB60220CA7F1200387AA5 /* Build configuration list for PBXProject "ALTableViewXib" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4C68E73E20C95E5F00B3D39F;
-			productRefGroup = 4C68E74920C95E5F00B3D39F /* Products */;
+			mainGroup = 4C7CB5FE20CA7F1200387AA5;
+			productRefGroup = 4C7CB60920CA7F1200387AA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C68E74720C95E5F00B3D39F /* ALTableViewXib */,
+				4C7CB60720CA7F1200387AA5 /* ALTableViewXib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4C68E74620C95E5F00B3D39F /* Resources */ = {
+		4C7CB60620CA7F1200387AA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C68E78420C95ECB00B3D39F /* DefaultHeaderView.xib in Resources */,
-				4C68E79C20C95ECB00B3D39F /* DettaglioDefaultTVC.xib in Resources */,
-				4C68E78120C95ECB00B3D39F /* TableViewXib.xib in Resources */,
+				4C7CB63320CA7F3200387AA5 /* DefaultHeaderView.xib in Resources */,
+				4C7CB62D20CA7F3200387AA5 /* TableViewXib.xib in Resources */,
+				4C7CB63720CA7F3200387AA5 /* DettaglioDefaultTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		E1354B4000086A7A63563187 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ALTableViewXib-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4C68E74320C95E5F00B3D39F /* Sources */ = {
+		4C7CB60320CA7F1200387AA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C68E79D20C95ECB00B3D39F /* DettaglioDefaultTVC.swift in Sources */,
-				4C68E79E20C95ECB00B3D39F /* DettaglioDefaultMC.swift in Sources */,
-				4CEA770220C985EB00E57FBE /* UITableView+Extension.swift in Sources */,
-				4C68E78920C95ECB00B3D39F /* TableViewDataSource.swift in Sources */,
-				4C68E7A020C95ECB00B3D39F /* UIView+Extension.swift in Sources */,
-				4C68E79F20C95ECB00B3D39F /* NSObject+Extension.swift in Sources */,
-				4C68E78520C95ECB00B3D39F /* DefaultHeaderView.swift in Sources */,
-				4C68E78820C95ECB00B3D39F /* TableViewXib.swift in Sources */,
+				4C7CB63C20CA7F3200387AA5 /* UIView+Extension.swift in Sources */,
+				4C7CB63920CA7F3200387AA5 /* DettaglioDefaultMC.swift in Sources */,
+				4C7CB63120CA7F3200387AA5 /* TableViewXib.swift in Sources */,
+				4C7CB63820CA7F3200387AA5 /* DettaglioDefaultTVC.swift in Sources */,
+				4C7CB63B20CA7F3200387AA5 /* NSObject+Extension.swift in Sources */,
+				4C7CB63420CA7F3200387AA5 /* DefaultHeaderView.swift in Sources */,
+				4C7CB63620CA7F3200387AA5 /* TableViewDataSource.swift in Sources */,
+				4C7CB63D20CA7F3200387AA5 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4C68E74E20C95E5F00B3D39F /* Debug */ = {
+		4C7CB60E20CA7F1200387AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		4C68E74F20C95E5F00B3D39F /* Release */ = {
+		4C7CB60F20CA7F1200387AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,9 +343,8 @@
 			};
 			name = Release;
 		};
-		4C68E75120C95E5F00B3D39F /* Debug */ = {
+		4C7CB61120CA7F1200387AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87170D167F823AA19FD5F4CD /* Pods-ALTableViewXib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -409,14 +362,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4C68E75220C95E5F00B3D39F /* Release */ = {
+		4C7CB61220CA7F1200387AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FD5C63537C82B0AAEE89EF5 /* Pods-ALTableViewXib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -433,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chillura.ALTableViewXib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -441,25 +393,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C68E74220C95E5F00B3D39F /* Build configuration list for PBXProject "ALTableViewXib" */ = {
+		4C7CB60220CA7F1200387AA5 /* Build configuration list for PBXProject "ALTableViewXib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C68E74E20C95E5F00B3D39F /* Debug */,
-				4C68E74F20C95E5F00B3D39F /* Release */,
+				4C7CB60E20CA7F1200387AA5 /* Debug */,
+				4C7CB60F20CA7F1200387AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C68E75020C95E5F00B3D39F /* Build configuration list for PBXNativeTarget "ALTableViewXib" */ = {
+		4C7CB61020CA7F1200387AA5 /* Build configuration list for PBXNativeTarget "ALTableViewXib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C68E75120C95E5F00B3D39F /* Debug */,
-				4C68E75220C95E5F00B3D39F /* Release */,
+				4C7CB61120CA7F1200387AA5 /* Debug */,
+				4C7CB61220CA7F1200387AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C68E73F20C95E5F00B3D39F /* Project object */;
+	rootObject = 4C7CB5FF20CA7F1200387AA5 /* Project object */;
 }
