@@ -46,6 +46,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="backgroudView" destination="Sy3-Lh-L7q" id="aUG-N8-zYu"/>
                 <outlet property="dettaglioLBL" destination="Hde-vR-1Tp" id="feV-X2-pBA"/>
             </connections>
             <point key="canvasLocation" x="34.5" y="64.5"/>
