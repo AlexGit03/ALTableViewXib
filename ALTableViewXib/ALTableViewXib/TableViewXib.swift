@@ -51,7 +51,7 @@ open class TableViewXib: UIView {
             headerView.setNeedsLayout()
             headerView.layoutIfNeeded()
             
-            let height = headerView.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height
+            let height = headerView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize).height
             var frame = headerView.frame
             frame.size.height = height
             headerView.frame = frame
@@ -100,7 +100,7 @@ private extension TableViewXib {
         registerXib()
         
         tableView.estimatedRowHeight = 500
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         
     }
     
