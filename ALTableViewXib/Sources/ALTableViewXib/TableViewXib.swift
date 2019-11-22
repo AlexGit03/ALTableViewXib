@@ -8,12 +8,12 @@
 
 import UIKit
 
-public protocol HeaderProtocol {
-    weak var headerLBL: UILabel! { get set }
+public protocol HeaderProtocol:class {
+    var headerLBL: UILabel! { get set }
 }
 
 public protocol HeaderExpandedViewProtocol:HeaderProtocol {
-    weak var buttonHV: UIButton! { get set }
+    var buttonHV: UIButton! { get set }
 }
 
 open class TableViewXib: UIView {
