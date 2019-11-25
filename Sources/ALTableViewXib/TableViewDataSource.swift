@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class TableViewDataSource {
+public class TableViewDataSource {
     public var header:String?
     public var hearderView:UIView?
     public var list:[Any]!

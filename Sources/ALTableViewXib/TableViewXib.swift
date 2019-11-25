@@ -16,13 +16,13 @@ public protocol HeaderExpandedViewProtocol:HeaderProtocol {
     var buttonHV: UIButton! { get set }
 }
 
-open class TableViewXib: UIView {
+public class TableViewXib: UIView {
     
-    @IBOutlet open weak var tableView: UITableView!
+    @IBOutlet public weak var tableView: UITableView!
     
     static public let defaultHeightHeaderTable:CGFloat = 50
     
-    open var dataSource = [TableViewDataSource]()
+    public var dataSource = [TableViewDataSource]()
     
     var clousuresDidSelectRow:((_ section:Int, _ row:Int) -> Void)?
     var clousuresDidSelectElementRowOne:((_ section:Int, _ row:Int) -> Void)?
@@ -62,25 +62,25 @@ open class TableViewXib: UIView {
         return 40
     }
     
-    open func reloadData() {
+    public func reloadData() {
         self.tableView.reloadData()
     }
     
     // MARK: Closures TableViewDelegate
     
-    open func didSelect(cell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    public func didSelect(cell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectRow = cell
     }
     
-    open func didSelectElementCellOne(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    public func didSelectElementCellOne(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectElementRowOne = elementCell
     }
     
-    open func didSelectElementCellTwo(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    public func didSelectElementCellTwo(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectElementRowTwo = elementCell
     }
     
-    open func configureCellInXib(cell: @escaping (_ tableView: UITableView, _ indexPath: IndexPath)->UITableViewCell?) {
+    public func configureCellInXib(cell: @escaping (_ tableView: UITableView, _ indexPath: IndexPath)->UITableViewCell?) {
         self.funcCellForRow = cell
     }
     

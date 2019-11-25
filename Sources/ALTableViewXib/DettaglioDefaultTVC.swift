@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class DettaglioDefaultTVC: UITableViewCell {
+public class DettaglioDefaultTVC: UITableViewCell {
     
     static public let identifieldCell = "DettaglioDefaultTVC"
     

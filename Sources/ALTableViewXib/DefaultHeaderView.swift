@@ -8,11 +8,11 @@
 
 import UIKit
 
-open class DefaultHeaderView: UIView, HeaderProtocol {
+public class DefaultHeaderView: UIView, HeaderProtocol {
     
     @IBOutlet weak public var headerLBL: UILabel!
     
-    open override var backgroundColor: UIColor? {
+    public override var backgroundColor: UIColor? {
         get {
             return self.backgroundColor
         }
