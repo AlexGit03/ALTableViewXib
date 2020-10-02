@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol HeaderProtocol:class {
+public protocol HeaderProtocol {
     var headerLBL: UILabel! { get set }
 }
 
@@ -16,13 +16,13 @@ public protocol HeaderExpandedViewProtocol:HeaderProtocol {
     var buttonHV: UIButton! { get set }
 }
 
-public class TableViewXib: UIView {
+open class TableViewXib: UIView {
     
-    @IBOutlet public weak var tableView: UITableView!
+    @IBOutlet open weak var tableView: UITableView!
     
     static public let defaultHeightHeaderTable:CGFloat = 50
     
-    public var dataSource = [TableViewDataSource]()
+    open var dataSource = [TableViewDataSource]()
     
     var clousuresDidSelectRow:((_ section:Int, _ row:Int) -> Void)?
     var clousuresDidSelectElementRowOne:((_ section:Int, _ row:Int) -> Void)?
@@ -62,25 +62,25 @@ public class TableViewXib: UIView {
         return 40
     }
     
-    public func reloadData() {
+    open func reloadData() {
         self.tableView.reloadData()
     }
     
     // MARK: Closures TableViewDelegate
     
-    public func didSelect(cell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    open func didSelect(cell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectRow = cell
     }
     
-    public func didSelectElementCellOne(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    open func didSelectElementCellOne(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectElementRowOne = elementCell
     }
     
-    public func didSelectElementCellTwo(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
+    open func didSelectElementCellTwo(elementCell: @escaping (_ section:Int, _ row:Int) -> Void) {
         self.clousuresDidSelectElementRowTwo = elementCell
     }
     
-    public func configureCellInXib(cell: @escaping (_ tableView: UITableView, _ indexPath: IndexPath)->UITableViewCell?) {
+    open func configureCellInXib(cell: @escaping (_ tableView: UITableView, _ indexPath: IndexPath)->UITableViewCell?) {
         self.funcCellForRow = cell
     }
     
