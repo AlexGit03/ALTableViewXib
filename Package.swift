@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ALTableViewXib",
+    platforms: [
+        .iOS(.v10),
+    ],
     products: [
         .library(name: "ALTableViewXib", targets: ["ALTableViewXib"]),
     ], dependencies: [
