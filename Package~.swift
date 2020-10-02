@@ -23,8 +23,5 @@ let package = Package(
             resources: [.process("DefaultHeaderView.xib"),
                         .process("DettaglioDefaultTVC.xib"),
                         .process("TableViewXib.xib")]),
-        .testTarget(
-            name: "ALTableViewXibTests",
-            dependencies: ["ALTableViewXib"]),
     ]
 )
