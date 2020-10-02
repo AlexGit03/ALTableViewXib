@@ -107,7 +107,11 @@ private extension TableViewXib {
     private func registerXib() {
         
         // DettaglioDefaultTVC Cell
-        let bundle = Bundle(for: type(of: self) as AnyClass)
+        guard let xibPath = Bundle.module.path(forResource: "TableViewXib", ofType: "xib") else  {
+            print("errore nel prendere il path della classe TableViewXib")
+            return
+        }
+        let bundle = Bundle.init(path: xibPath)
         tableView.register(UINib(nibName: DettaglioDefaultTVC.identifieldCell, bundle: bundle), forCellReuseIdentifier: DettaglioDefaultTVC.identifieldCell)
     }
 }
